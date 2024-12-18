@@ -1,6 +1,6 @@
 # ldb (LocalDB) Documentation
 
-A Quick and easy way to use database in client side browser's local-Storage.
+A Quick and easy way to use database in client side browser's local-Storage. Created by AJ of TECHSOUL.
 
 ## Methods
 
