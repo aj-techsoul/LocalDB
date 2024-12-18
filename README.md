@@ -17,21 +17,21 @@ A Quick and easy way to use database in client side browser's local-Storage.
 const db = new ldb();
 
 // Insert data
-db.insert('users', 'user1', { name: 'John', age: 30 });
+db.insert('users', 'user1', { name: 'AJ', age: 30 });
 db.insert('users', 'user2', { name: 'Jane', age: 25 });
 
 // Update data
-db.update('users', 'user1', { age: 31 });
+db.update('users', 'user1', { age: 30 });
 
 // Get data
-console.log(db.get('users', 'user1')); // Output: { name: 'John', age: 31 }
+console.log(db.get('users', 'user1')); // Output: { name: 'AJ', age: 30 }
 
 // Search data
-console.log(db.search('users', 'Jane')); // Output: [{ user2: { name: 'Jane', age: 25 } }]
+console.log(db.search('users', 'Jane')); // Output: [{ user2: { name: 'Jane', age: 16 } }]
 
 // Delete data
 db.delete('users', 'user2');
 
 // Convert database to JSON
-console.log(db.convertJSON('users')); // Output: { user1: { name: 'John', age: 31 } }
+console.log(db.convertJSON('users')); // Output: { user1: { name: 'AJ', age: 30 } }
 ```
