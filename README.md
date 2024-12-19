@@ -14,7 +14,7 @@ A Quick and easy way to use database in client side browser's local-Storage. Cre
 
 ## CDN - Quick Intergration
 ```
-https://cdn.jsdelivr.net/gh/aj-techsoul/LocalDB/ldb.min.js
+https://cdn.jsdelivr.net/gh/aj-techsoul/LocalDB@latest/ldb.min.js
 ```
 
 ## Usage Example
