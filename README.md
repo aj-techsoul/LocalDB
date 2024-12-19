@@ -11,6 +11,11 @@ A Quick and easy way to use database in client side browser's local-Storage. Cre
 - **`search(db, query, key)`**: Searches for a query in the database. Optionally filters the search within a specific key.
 - **`convertJSON(db)`**: Converts the entire database to a JSON object and returns it.
 
+## CDN - Quick Intergration
+```
+https://cdn.jsdelivr.net/gh/aj-techsoul/LocalDB/ldb.min.js
+```
+
 ## Usage Example
 
 ```javascript
