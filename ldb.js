@@ -74,4 +74,14 @@ class ldb {
     convertJSON(db) {
         return JSON.parse(localStorage.getItem(db)) || {};
     }
+
+    importJSON(db, json) {
+        if (typeof json !== 'object') {
+            throw new Error('Invalid JSON input. Expected an object or array.');
+        }
+
+        let dbData = Array.isArray(json) ? [...json] : { ...json };
+        localStorage.setItem(db, JSON.stringify(dbData));
+        return true;
+    }
 }
